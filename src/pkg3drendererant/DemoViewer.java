@@ -10,10 +10,10 @@ import java.util.ArrayList;
 
 public class DemoViewer {
     
-    private Octahedron shape;
+    private Tetrahedron shape;
     
     public DemoViewer() {
-        this.shape = new Octahedron();
+        this.shape = new Tetrahedron();
         
         /*for(int i = 0; i < 4; i++) {
             shape.triangles = inflate(shape.getShape());
